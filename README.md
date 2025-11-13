@@ -1,3 +1,9 @@
+
+docker run --rm \
+             -v "$(pwd)/styles":/styles \
+             -v "$(pwd)":/docs \
+             -w /docs \
+             jdkato/vale README.md
 direnv -- unclutter your .profile
 =================================
 
